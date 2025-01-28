@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Hexagon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Hexagon.png" />
+  </ItemGroup>
+
 </Project>

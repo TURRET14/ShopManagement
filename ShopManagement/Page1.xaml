@@ -8,13 +8,13 @@
       Title="Page1" Background="#1F1F1F">
     <Page.Resources>
         <Style TargetType="TextBlock">
-            <Setter Property="FontFamily" Value="Bahnschrift"></Setter>
+            <Setter Property="FontFamily" Value="PlumbBoldC"></Setter>
             <Setter Property="FontSize" Value="20"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
         </Style>
         <Style TargetType="TextBox">
-            <Setter Property="FontFamily" Value="Bahnschrift"></Setter>
+            <Setter Property="FontFamily" Value="PlumbBoldC"></Setter>
             <Setter Property="FontSize" Value="25"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
@@ -23,7 +23,7 @@
             <Setter Property="Padding" Value="5"></Setter>
         </Style>
         <Style TargetType="PasswordBox">
-            <Setter Property="FontFamily" Value="Bahnschrift"></Setter>
+            <Setter Property="FontFamily" Value="PlumbBoldC"></Setter>
             <Setter Property="FontSize" Value="25"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
@@ -32,7 +32,7 @@
             <Setter Property="Padding" Value="5"></Setter>
         </Style>
         <Style TargetType="Button">
-            <Setter Property="FontFamily" Value="Bahnschrift"></Setter>
+            <Setter Property="FontFamily" Value="PlumbBoldC"></Setter>
             <Setter Property="FontSize" Value="30"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
             <Setter Property="BorderThickness" Value="0"></Setter>

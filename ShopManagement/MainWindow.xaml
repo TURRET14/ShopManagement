@@ -18,12 +18,12 @@
             <Setter Property="FontSize" Value="20"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
             <Setter Property="BorderThickness" Value="0"></Setter>
-            <Setter Property="Background" Value="#040608"></Setter>
+            <Setter Property="Background" Value="#080808"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
             <Setter Property="Padding" Value="10"></Setter>
         </Style>
     </Window.Resources>
-    <Grid Background="#1A1F25">
+    <Grid Background="#1F1F1F">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -41,7 +41,7 @@
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Border Grid.Row="0" Grid.Column="0" CornerRadius="15" Background="#0E1216" Padding="10" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Border Grid.Row="0" Grid.Column="0" CornerRadius="15" Background="#0F0F0F" Padding="10" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Center">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition></RowDefinition>
@@ -109,7 +109,7 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Название Таблицы"></TextBlock>
-                <DataGrid Grid.Row="1" Grid.Column="0" Background="#0E1216" RowBackground="Black" AlternatingRowBackground="Black">
+                <DataGrid Grid.Row="1" Grid.Column="0" Background="#171717" BorderThickness="0">
                 </DataGrid>
             </Grid>
         </Grid>

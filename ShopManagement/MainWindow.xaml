@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <Style TargetType="TextBlock">
-            <Setter Property="FontFamily" Value="Bahnschrift"></Setter>
+            <Setter Property="FontFamily" Value="Trebuchet MS"></Setter>
             <Setter Property="FontSize" Value="25"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
             <Setter Property="Foreground" Value="White"></Setter>
@@ -41,7 +41,7 @@
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Border Grid.Row="0" Grid.Column="0" CornerRadius="15" Background="#0F0F0F" Padding="10" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Border Grid.Row="0" Grid.Column="0" CornerRadius="15" Background="#131313" Padding="10" Margin="10" VerticalAlignment="Top" HorizontalAlignment="Center">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition></RowDefinition>

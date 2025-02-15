@@ -54,6 +54,7 @@
             </ControlTemplate.Triggers>
         </ControlTemplate>
     </Window.Resources>
+    <Grid Name="MainGrid">
     <Grid Background="#1A1A1A">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
@@ -137,9 +138,36 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Название Таблицы"></TextBlock>
-                <DataGrid Grid.Row="1" Grid.Column="0" Background="#252525" BorderThickness="0">
-                </DataGrid>
+                    <DataGrid AutoGenerateColumns="True" Name="ProductsTable" Grid.Row="1" Grid.Column="0" Background="#252525" BorderThickness="0" FontFamily="PlumbBoldC" FontSize="20" Foreground="#E0E0E0" RowBackground="#252525" GridLinesVisibility="Horizontal" HorizontalGridLinesBrush="#E0E0E0" VerticalGridLinesBrush="#E0E0E0" HeadersVisibility="All" VerticalAlignment="Top" HorizontalAlignment="Left">
+                        <DataGrid.Resources>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                <Setter Property="Background" Value="#252525"/>
+                                <Setter Property="Foreground" Value="#E0E0E0"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="BorderBrush" Value="#E0E0E0"/>
+                                <Setter Property="BorderThickness" Value="0, 0, 0, 1"/>
+                            </Style>
+                            <Style TargetType="DataGridRowHeader">
+                                <Setter Property="Background" Value="DarkBlue"/>
+                                <!-- Фон в обычном состоянии -->
+                                <Setter Property="Foreground" Value="White"/>
+                                <!-- Цвет текста -->
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="BorderBrush" Value="Black"/>
+                                <Setter Property="BorderThickness" Value="0"/>
+                            </Style>
+                        </DataGrid.Resources>
+                        
+                        <DataGrid.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            </Style>
+                        </DataGrid.CellStyle>
+                    </DataGrid>
             </Grid>
         </Grid>
+    </Grid>
     </Grid>
 </Window>
